@@ -1,0 +1,14 @@
+$tablet: 1179px;
+$mobile: 539px;
+
+//common
+@import './common/reset';
+@import './common/header';
+@import './common/footer';
+
+//main
+@import './main/visual';
+@import './main/about';
+@import './main/record';
+@import './main/skill';
+@import './main/work';

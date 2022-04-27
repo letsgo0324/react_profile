@@ -1,7 +1,27 @@
+import { Route, Switch } from 'react-router-dom';
+
+import './scss/style.scss';
+
+//common
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
+
+//main
+import Main from './components/main/Main';
+
 function App() {
 	return (
 		<div className='App'>
-			<h1>profile test</h1>
+			<Switch>
+				<Route exact path='/'>
+					<Main />
+				</Route>
+				<Route path='/'>
+					<Header />
+				</Route>
+			</Switch>
+
+			<Footer />
 		</div>
 	);
 }
