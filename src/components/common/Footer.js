@@ -2,7 +2,7 @@ function Footer() {
 	return (
 		<footer>
 			<div className='inner'>
-				<h1>Copy Rights All Reserved &copy; 2022</h1>
+				<p>Copyright &copy; 2022 KIM EUNSOOK All Reserved</p>
 			</div>
 		</footer>
 	);

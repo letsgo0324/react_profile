@@ -3,18 +3,20 @@ import Header from '../common/Header';
 
 //main
 import Visual from './Visual';
-import About from './About';
+import Contact from './Contact';
 import Record from './Record';
-import Work from './Work';
+import Skill from './Skill';
+import About from './About';
 
 function Main() {
 	return (
 		<main>
-			<Header />
+			<Header type={'main'} />
 			<Visual />
-			<About />
+			<Contact />
 			<Record />
-			<Work />
+			<Skill />
+			<About />
 		</main>
 	);
 }

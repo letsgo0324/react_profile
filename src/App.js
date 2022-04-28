@@ -9,6 +9,8 @@ import Footer from './components/common/Footer';
 //main
 import Main from './components/main/Main';
 
+const path = process.env.PUBLIC_URL;
+
 function App() {
 	return (
 		<div className='App'>
@@ -16,11 +18,7 @@ function App() {
 				<Route exact path='/'>
 					<Main />
 				</Route>
-				<Route path='/'>
-					<Header />
-				</Route>
 			</Switch>
-
 			<Footer />
 		</div>
 	);

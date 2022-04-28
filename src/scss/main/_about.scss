@@ -1,10 +1,99 @@
 #about {
 	width: 100%;
-	min-height: 500px;
-	background: lightcyan;
+	background: lightgoldenrodyellow;
+	padding: 80px 0;
 
 	.inner {
 		width: 1180px;
 		margin: 0 auto;
+
+		h1 {
+			font: bold 24px/1 'arial';
+			text-transform: uppercase;
+			color: blue;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+
+		.wrap {
+			article {
+				float: left;
+
+				&:first-child {
+					width: 780px;
+					margin-right: 20px;
+				}
+				&:last-child {
+					width: 380px;
+				}
+
+				h2 {
+					font: bold 20px/1 'arial';
+					text-transform: uppercase;
+					color: blue;
+					margin-bottom: 20px;
+				}
+
+				.personality {
+					width: 100%;
+
+					.con {
+						width: 100%;
+						margin-bottom: 10px;
+
+						&::after {
+							content: '';
+							display: block;
+							clear: both;
+						}
+
+						h3 {
+							width: 20%;
+							float: left;
+							font: bold 18px/1 'arial';
+							color: blue;
+						}
+						p {
+							width: 80%;
+							float: left;
+							font: 14px/1.5 'arial';
+							color: blue;
+						}
+					}
+				}
+				.interest {
+					width: 100%;
+					> ul {
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-between;
+						align-items: center;
+
+						li {
+							width: 100px;
+							height: 100px;
+							background: yellow;
+							border-radius: 50%;
+
+							.fa-film,
+							.fa-plane-departure,
+							.fa-book {
+								font-size: 25px;
+								color: blue;
+								display: block;
+								margin: 25px auto 0;
+							}
+							span {
+								display: block;
+								text-align: center;
+								margin-top: 10px;
+								font: 10px/1 'arial';
+								color: blue;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
