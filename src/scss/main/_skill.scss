@@ -1,18 +1,31 @@
 #skill {
 	width: 100%;
-	background: lightgreen;
-	padding: 80px 0;
+	background: #fdf6f0;
+	padding: 100px 0;
 
 	.inner {
 		width: 1180px;
 		margin: 0 auto;
 
 		h1 {
-			font: bold 24px/1 'arial';
+			font: bold 24px/1 'Raleway';
 			text-transform: uppercase;
-			color: blue;
-			margin-bottom: 50px;
+			color: #333;
+			margin-bottom: 80px;
 			text-align: center;
+			position: relative;
+
+			&::after {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: -20px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 30px;
+				height: 3px;
+				background: #333;
+			}
 		}
 		.wrap {
 			article {
@@ -32,7 +45,7 @@
 					width: 100px;
 					height: 100px;
 					border-radius: 50%;
-					border: 10px solid rgba(170, 170, 170, 0.5);
+					border: 10px solid rgba(252, 216, 212, 0.4);
 
 					span {
 						position: absolute;
@@ -41,8 +54,8 @@
 						display: block;
 						width: 100%;
 						height: 100%;
-						font: 24px/80px 'arial';
-						color: blue;
+						font: 24px/80px 'Raleway';
+						color: #ffc5bf;
 						text-align: center;
 					}
 					svg {
@@ -51,7 +64,7 @@
 						top: -10px;
 						width: 100px;
 						height: 100px;
-						stroke: pink;
+						stroke: #ffc5bf;
 						stroke-width: 10px;
 						fill: transparent;
 						transform: rotate(-90deg);
@@ -98,8 +111,8 @@
 				}
 
 				p {
-					font: 16px/1 'arial';
-					color: blue;
+					font: 12px/1 'Raleway';
+					color: #333;
 					text-align: center;
 				}
 			}

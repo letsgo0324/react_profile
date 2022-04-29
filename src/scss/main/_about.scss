@@ -1,18 +1,31 @@
 #about {
 	width: 100%;
-	background: lightgoldenrodyellow;
-	padding: 80px 0;
+	background: #fffcfa;
+	padding: 100px 0;
 
 	.inner {
 		width: 1180px;
 		margin: 0 auto;
 
 		h1 {
-			font: bold 24px/1 'arial';
+			font: bold 24px/1 'Raleway';
 			text-transform: uppercase;
-			color: blue;
+			color: #333;
+			margin-bottom: 80px;
 			text-align: center;
-			margin-bottom: 50px;
+			position: relative;
+
+			&::after {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: -20px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 30px;
+				height: 3px;
+				background: #333;
+			}
 		}
 
 		.wrap {
@@ -28,9 +41,9 @@
 				}
 
 				h2 {
-					font: bold 20px/1 'arial';
+					font: bold 20px/1 'Raleway';
 					text-transform: uppercase;
-					color: blue;
+					color: #333;
 					margin-bottom: 20px;
 				}
 
@@ -50,14 +63,14 @@
 						h3 {
 							width: 20%;
 							float: left;
-							font: bold 18px/1 'arial';
-							color: blue;
+							font: bold 18px/1 'Gowun Dodum';
+							color: #333;
 						}
 						p {
 							width: 80%;
 							float: left;
-							font: 14px/1.5 'arial';
-							color: blue;
+							font: 14px/1.5 'Gowun Dodum';
+							color: #333;
 						}
 					}
 				}
@@ -72,14 +85,14 @@
 						li {
 							width: 100px;
 							height: 100px;
-							background: yellow;
+							background: #ffc5bf;
 							border-radius: 50%;
 
 							.fa-film,
 							.fa-plane-departure,
 							.fa-book {
 								font-size: 25px;
-								color: blue;
+								color: #fffcfa;
 								display: block;
 								margin: 25px auto 0;
 							}
@@ -87,8 +100,8 @@
 								display: block;
 								text-align: center;
 								margin-top: 10px;
-								font: 10px/1 'arial';
-								color: blue;
+								font: 10px/1 'Raleway';
+								color: #fffcfa;
 							}
 						}
 					}

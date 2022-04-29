@@ -1,7 +1,7 @@
 #record {
 	width: 100%;
-	background: #eee;
-	padding: 80px 0;
+	background: #fffcfa;
+	padding: 100px 0;
 
 	.inner {
 		width: 1180px;
@@ -50,15 +50,15 @@
 				}
 
 				h1 {
-					font: bold 24px/1 'arial';
+					font: bold 24px/1 'Raleway';
 					text-transform: uppercase;
-					color: blue;
+					color: #333;
 					margin-bottom: 30px;
 				}
 
 				.con {
 					width: 100%;
-					border-left: 1px solid blue;
+					border-left: 1px solid #ffd5ce;
 					padding-left: 20px;
 
 					.txt {
@@ -70,8 +70,8 @@
 						}
 
 						h2 {
-							font: bold 20px/1 'arial';
-							color: blue;
+							font: bold 20px/1 'Gowun Dodum';
+							color: #ff9a8f;
 							margin-bottom: 15px;
 							position: relative;
 
@@ -84,17 +84,17 @@
 								width: 10px;
 								height: 10px;
 								border-radius: 50%;
-								background: blue;
+								background: #ff9a8f;
 							}
 						}
 						h3 {
-							font: normal 14px/1 'arial';
-							color: blue;
+							font: normal 14px/1 'Raleway';
+							color: #888;
 							margin-bottom: 20px;
 						}
 						p {
-							font: 16px/1.5 'arial';
-							color: blue;
+							font: 16px/1.5 'Gowun Dodum';
+							color: #333;
 							margin-bottom: 5px;
 						}
 					}

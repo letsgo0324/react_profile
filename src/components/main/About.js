@@ -15,32 +15,20 @@ function About() {
 						<h2>personality</h2>
 						<div className='personality'>
 							<div className='con'>
-								<h3>persoanl1</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Deleniti, laudantium!
-								</p>
+								<h3>성격1</h3>
+								<p>성격 내용1</p>
 							</div>
 							<div className='con'>
-								<h3>persoanl2</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Deleniti, laudantium!
-								</p>
+								<h3>성격2</h3>
+								<p>성격 내용2</p>
 							</div>
 							<div className='con'>
-								<h3>persoanl3</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Deleniti, laudantium!
-								</p>
+								<h3>성격3</h3>
+								<p>성격 내용3</p>
 							</div>
 							<div className='con'>
-								<h3>persoanl4</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Deleniti, laudantium!
-								</p>
+								<h3>성격4</h3>
+								<p>성격 내용4</p>
 							</div>
 						</div>
 					</article>
