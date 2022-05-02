@@ -110,3 +110,61 @@
 		}
 	}
 }
+
+@media screen and (max-width: $tablet) {
+	#about {
+		.inner {
+			width: 100%;
+			padding: 0 30px;
+
+			.wrap {
+				article {
+					&:first-child {
+						width: 100%;
+						margin-right: 0;
+						margin-bottom: 40px;
+					}
+					&:last-child {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $mobile) {
+	#about {
+		.inner {
+			.wrap {
+				article {
+					.personality {
+						.con {
+							h3 {
+								width: 100%;
+								margin-bottom: 10px;
+							}
+							p {
+								width: 100%;
+							}
+						}
+					}
+					.interest {
+						> ul {
+							li {
+								width: 80px;
+								height: 80px;
+
+								.fa-film,
+								.fa-plane-departure,
+								.fa-book {
+									margin: 15px auto 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

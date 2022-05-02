@@ -90,13 +90,13 @@
 							stroke-dashoffset: 18;
 						}
 						&.s7 circle {
-							stroke-dashoffset: 150;
+							stroke-dashoffset: 135;
 						}
 						&.s8 circle {
-							stroke-dashoffset: 140;
+							stroke-dashoffset: 130;
 						}
 						&.s9 circle {
-							stroke-dashoffset: 180;
+							stroke-dashoffset: 140;
 						}
 						&.s10 circle {
 							stroke-dashoffset: 12;
@@ -105,7 +105,7 @@
 							stroke-dashoffset: 16;
 						}
 						&.s12 circle {
-							stroke-dashoffset: 200;
+							stroke-dashoffset: 150;
 						}
 					}
 				}
@@ -114,6 +114,33 @@
 					font: 12px/1 'Raleway';
 					color: #333;
 					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $tablet) {
+	#skill {
+		.inner {
+			width: 100%;
+			padding: 0 30px;
+
+			.wrap {
+				article {
+					width: 33.333%;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $mobile) {
+	#skill {
+		.inner {
+			.wrap {
+				article {
+					width: 50%;
 				}
 			}
 		}

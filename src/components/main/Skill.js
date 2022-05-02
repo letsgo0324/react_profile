@@ -61,7 +61,7 @@ function Skill() {
 					</article>
 					<article>
 						<div className='box'>
-							<span>47%</span>
+							<span>57%</span>
 							<svg width='100' height='100' class='s7'>
 								<circle r='45' cx='50' cy='50' class='pie' />
 							</svg>
@@ -70,7 +70,7 @@ function Skill() {
 					</article>
 					<article>
 						<div className='box'>
-							<span>50%</span>
+							<span>60%</span>
 							<svg width='100' height='100' class='s8'>
 								<circle r='45' cx='50' cy='50' class='pie' />
 							</svg>
@@ -79,7 +79,7 @@ function Skill() {
 					</article>
 					<article>
 						<div className='box'>
-							<span>40%</span>
+							<span>50%</span>
 							<svg width='100' height='100' class='s9'>
 								<circle r='45' cx='50' cy='50' class='pie' />
 							</svg>
@@ -106,7 +106,7 @@ function Skill() {
 					</article>
 					<article>
 						<div className='box'>
-							<span>32%</span>
+							<span>48%</span>
 							<svg width='100' height='100' class='s12'>
 								<circle r='45' cx='50' cy='50' class='pie' />
 							</svg>

@@ -7,8 +7,8 @@ function Contact() {
 				<div className='wrap'>
 					<article>
 						<h1>contact</h1>
-						<div className='pic'>
-							<img src='' alt='profile image' />
+						<div className='box'>
+							<h2>If you do not walk today, you will have to run tomorrow</h2>
 						</div>
 
 						<div className='contact_txt'>
@@ -18,9 +18,9 @@ function Contact() {
 								<li>MOBILE</li>
 							</ul>
 							<ul className='txt'>
-								<li>1900.00.00</li>
+								<li>1988.03.24</li>
 								<li>letsgo0324@naver.com</li>
-								<li>010-1234-5678</li>
+								<li>010-3607-3624</li>
 							</ul>
 						</div>
 					</article>
@@ -29,13 +29,13 @@ function Contact() {
 						<h1>works</h1>
 						<div className='wrap'>
 							<div className='works_items'>
-								<div className='pic'>
-									<a
-										href='https://letsgo0324.github.io/react_portfolio/'
-										target='_blank'>
+								<a
+									href='https://letsgo0324.github.io/react_portfolio/'
+									target='_blank'>
+									<div className='pic'>
 										<img src={`${path}/img/works1.jpg`} alt='works1 image' />
-									</a>
-								</div>
+									</div>
+								</a>
 								<span>REACT</span>
 								<h2>
 									VAULT GUCCI
@@ -52,13 +52,13 @@ function Contact() {
 								</h3>
 							</div>
 							<div className='works_items'>
-								<div className='pic'>
-									<a
-										href='https://letsgo0324.github.io/jomalone/'
-										target='_blank'>
+								<a
+									href='https://letsgo0324.github.io/jomalone/'
+									target='_blank'>
+									<div className='pic'>
 										<img src={`${path}/img/works2.jpg`} alt='works2 image' />
-									</a>
-								</div>
+									</div>
+								</a>
 								<span>HTML/CSS</span>
 								<h2>
 									JoMalone
