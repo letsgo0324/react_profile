@@ -48,7 +48,14 @@ function Contact() {
 									</span>
 								</h2>
 								<h3>
-									코딩가이드 <span>Download</span>
+									코딩가이드
+									<span>
+										<a
+											href='https://drive.google.com/file/d/1nCU3dZ0w_T70GAp-B5Lk6TuRLqFaaWgg/view?usp=sharing'
+											target='_blank'>
+											VIEW
+										</a>
+									</span>
 								</h3>
 							</div>
 							<div className='works_items'>

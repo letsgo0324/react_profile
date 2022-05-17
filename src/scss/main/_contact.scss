@@ -168,13 +168,15 @@
 								margin-bottom: 10px;
 
 								> span {
-									font: 14px/1 'Raleway';
-									color: #d81515;
-									margin-left: 5px;
-									cursor: pointer;
+									a {
+										font: 14px/1 'Raleway';
+										color: #d81515;
+										margin-left: 5px;
+										cursor: pointer;
 
-									&:hover {
-										font-weight: bold;
+										&:hover {
+											font-weight: bold;
+										}
 									}
 								}
 							}
