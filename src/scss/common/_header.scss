@@ -9,13 +9,43 @@ header {
 
 		h1 {
 			position: absolute;
+			top: 50%;
 			left: 0;
-			bottom: 0;
+			transform: translateY(-50%);
 
 			a {
 				font: 24px/80px 'Raleway';
 				color: #333;
 				letter-spacing: 1px;
+			}
+		}
+
+		#gnb {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+
+			li {
+				display: inline-block;
+				margin-right: 20px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				a {
+					font: 12px/80px 'Raleway';
+					color: #333;
+					letter-spacing: 1px;
+					padding-bottom: 5px;
+					border-bottom: 1px solid transparent;
+
+					&:hover {
+						color: #000;
+						border-bottom: 1px solid #000;
+					}
+				}
 			}
 		}
 	}
@@ -26,6 +56,13 @@ header {
 		top: 0;
 		left: 0;
 		z-index: 2;
+	}
+	&.sub {
+		background: #fffcfa;
+
+		.inner #gnb li a:hover {
+			border-bottom: 1px solid #ffccc6;
+		}
 	}
 }
 
