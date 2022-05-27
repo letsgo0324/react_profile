@@ -6,7 +6,7 @@ function Visual() {
 			<div className='inner'>
 				<div className='tit'>
 					<h1>KIM EUN SOOK</h1>
-					<h2>WEB DESIGNER / WEB PUBLISHER / FRONT-END DEV</h2>
+					<h2>WEB DESIGNER / WEB PUBLISHER</h2>
 				</div>
 			</div>
 			<div className='pic'>
