@@ -28,7 +28,7 @@ function Website() {
 			thumb: `${path}/img/website_jomalone_thumb.jpg`,
 			image: `${path}/img/website_jomalone_img.jpg`,
 			concept:
-				'향수브랜드 JoMalone을 그레이와 화이트 컬러를 이용해 웹접근성에 맞추어 디자인함. 회사소개, 공지사항, 유튜브, 갤러리(istope, flickr), 지도(kakao), 회원가입 페이지로 구성되어 있음. 햄버거 버튼으로 내비게이션을 적용하였고, 팝업, 스크롤모션, 롤링배너, 슬라이더, 카운터, 탭메뉴 등을 적용함.',
+				'ES6 최신 문법, 시멘틱 태그를 사용해 웹 접근성을 고려하여 제작한 사이트.	향수브랜드 JoMalone을 그레이와 화이트 컬러를 이용해 웹접근성에 맞추어 디자인함. 회사소개, 공지사항, 유튜브, 갤러리(istope, flickr), 지도(kakao), 회원가입 페이지로 구성되어 있음. 햄버거 버튼으로 내비게이션을 적용하였고, 팝업, 스크롤모션, 롤링배너, 슬라이더, 카운터, 탭메뉴 등을 적용함.',
 			size: 'PC 1200px / Tablet 540px / Mobile 360px',
 			tool: 'Photoshop, Illustrator',
 			year: '2022',
@@ -46,7 +46,7 @@ function Website() {
 			tool: 'Photoshop, Illustrator',
 			year: '2017',
 			guide: 'X',
-			link: 'http://letsgo0324.dothome.co.kr/okasoft/',
+			link: 'X',
 		},
 		{
 			title: 'WithTrip 웹사이트',
@@ -59,7 +59,7 @@ function Website() {
 			tool: 'Photoshop, Illustrator',
 			year: '2016',
 			guide: 'X',
-			link: 'http://letsgo0324.dothome.co.kr/withtrip/',
+			link: 'X',
 		},
 		{
 			title: '쿠론 웹사이트 (메인)',
@@ -72,7 +72,7 @@ function Website() {
 			tool: 'Photoshop, Illustrator',
 			year: '2017',
 			guide: 'X',
-			link: 'https://letsgo0324.github.io/couronne/',
+			link: 'X',
 		},
 		{
 			title: '공차 웹사이트 (메인)',
@@ -85,7 +85,7 @@ function Website() {
 			tool: 'Photoshop, Illustrator',
 			year: '2017',
 			guide: 'X',
-			link: 'https://letsgo0324.github.io/gongcha/',
+			link: 'X',
 		},
 		{
 			title: 'JBL 웹사이트 (메인)',
@@ -98,7 +98,7 @@ function Website() {
 			tool: 'Photoshop, Illustrator',
 			year: '2017',
 			guide: 'X',
-			link: 'https://letsgo0324.github.io/jbl/',
+			link: 'X',
 		},
 	];
 
